@@ -15,18 +15,16 @@ This project deploys an **Ubuntu EC2 instance** with **Nginx** installed using *
 ##  Screenshots
 
 ### 1. Terraform Apply Output  
-![skilltest3-5-terra-apply](https://github.com/user-attachments/assets/d0abae22-972f-4234-8ea1-f5e29835a7a5)
-
-![skilltest3-5-terra-appl3 creation](https://github.com/user-attachments/assets/ef543927-9701-405a-be08-d137d342524a)
-
-
+![tarraform-apply1](https://github.com/user-attachments/assets/7359e489-0785-4ad2-8c56-5b7a38b00296)
+![tarraform-apply2](https://github.com/user-attachments/assets/8747052f-9a8c-4b28-97ed-d3093d090951)
+![tarraform-apply3](https://github.com/user-attachments/assets/3d00a281-61ee-4d85-bc68-0586b02237f6)
+![tarraform-apply4](https://github.com/user-attachments/assets/728c8281-a04b-4ea3-ab8c-4094a1561b3f)
 
 ### 2. EC2 Instance Running  
-<img width="1541" height="189" alt="Screenshot 2025-11-21 153435" src="https://github.com/user-attachments/assets/901426f1-d1c0-4801-9969-f4119b9ee20a" />
-
+![tarraform-server](https://github.com/user-attachments/assets/93dd01c2-4fac-49cc-beb0-ca3b5b4fc041)
 
 ### 3. Nginx Page Output  
-<img width="586" height="126" alt="Screenshot 2025-11-21 153801" src="https://github.com/user-attachments/assets/d940add4-c893-40f4-a36e-3950d5e20a34" />
+![tarraform-web-server](https://github.com/user-attachments/assets/758b5951-61a0-41f0-869e-4538c2c6639c)
 
 ---
 
@@ -47,28 +45,27 @@ terraform-nginx-ubuntu/
 ### 1️ Initialize Terraform
 ```
 terraform init
-![skilltest3-4_terra-Plan](https://github.com/user-attachments/assets/7788c036-c8f4-44f0-8423-f9331a083556)
-
+![tarraform-inti](https://github.com/user-attachments/assets/772e983c-7b0b-4c92-a0cd-c9128b319c8b)
 
 ```
 
 ### 2️ Review the Plan
 ```
 terraform plan
-![skilltest3-4_terra-Plan](https://github.com/user-attachments/assets/f6ccde78-0926-4ac3-960b-2c97855e464a)
-
-![skilltest3-4_terra-Plan-4](https://github.com/user-attachments/assets/b93889fc-7728-4332-9f66-bc6766635a0c)
+![tarraform-plan1](https://github.com/user-attachments/assets/d6b0a01e-8aeb-4fee-8b63-56e506d77c50)
+![tarraform-plan2](https://github.com/user-attachments/assets/a3bddea7-8c78-45ff-b19a-ca78befe19ff)
+![tarraform-plan3](https://github.com/user-attachments/assets/86d66686-0843-4d63-b31a-36d8a093ae12)
+![tarraform-plan4](https://github.com/user-attachments/assets/01f33eac-54e8-4832-b025-0f3b55a07ab5)
 
 ```
-
-
 
 ### 3️ Apply Configuration
 ```
 terraform apply
-![skilltest3-5-terra-apply](https://github.com/user-attachments/assets/0063d915-adcd-4ee1-b2b0-49decb3958af)
-![skilltest3-5-terra-appl3 creation](https://github.com/user-attachments/assets/f082fde0-75d2-4aec-9090-b0fe28750462)
-
+![tarraform-apply1](https://github.com/user-attachments/assets/a498b06b-86bd-40ef-8783-6dbec5dc9701)
+![tarraform-apply2](https://github.com/user-attachments/assets/030a5001-9c96-4374-b28f-2b7e902aba6b)
+![tarraform-apply3](https://github.com/user-attachments/assets/29a012e5-6241-46f7-a6ab-97f17b745168)
+![tarraform-apply4](https://github.com/user-attachments/assets/28221e4d-0e6c-4eca-90c4-5808492e40f6)
 
 ```
 
@@ -76,14 +73,15 @@ terraform apply
 ### 4 checking server & SG on Web
 ```
 Secuirty group
-![skilltest3-SG](https://github.com/user-attachments/assets/785deb5b-ad4b-490f-9ffd-e7ad591652dc)
+![tarraform-SG](https://github.com/user-attachments/assets/750df907-20d9-4d99-99c9-e9459ed5f688)
 
 ```
 
 
 ```
 Server
-![skilltest3-instance](https://github.com/user-attachments/assets/6bb9eee3-912e-4b2a-99d0-c8d1239b9dcc)
+![tarraform-server](https://github.com/user-attachments/assets/848987f0-8260-4d3d-9da2-5467507074de)
+
 
 ```
 
@@ -98,7 +96,8 @@ terraform output public_ip
 
 ### 5️ Access Nginx
 Open in browser:
-![skilltest3-public IP](https://github.com/user-attachments/assets/cdd28072-e243-4fc5-bce8-93bbff2fcb22)
+![tarraform-web-server](https://github.com/user-attachments/assets/05724963-773c-43f7-b2c4-96da7edb65b2)
+
 
 ```
 
@@ -112,8 +111,10 @@ Open in browser:
 ```
 terraform destroy
 ```
-![skilltest3-destroy](https://github.com/user-attachments/assets/a22bf345-3924-473b-9e29-a5f811294336)
-![skilltest3-destroy-2](https://github.com/user-attachments/assets/4981b3d4-c310-4653-9239-1fb71fd9c781)
+![tarraform-destroy1](https://github.com/user-attachments/assets/788edf72-c835-4939-9b97-3775982393b3)
+![tarraform-destroy2](https://github.com/user-attachments/assets/8a7c992d-8fab-4263-bf37-7b399a2033a8)
+![tarraform-destroy3](https://github.com/user-attachments/assets/9b8f8a9e-e288-46f4-8d36-ea7440cde2c6)
+
 
 ---
 
