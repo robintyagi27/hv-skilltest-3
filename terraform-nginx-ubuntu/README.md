@@ -45,6 +45,7 @@ terraform-nginx-ubuntu/
 ### 1️ Initialize Terraform
 ```
 terraform init
+
 ![tarraform-inti](https://github.com/user-attachments/assets/772e983c-7b0b-4c92-a0cd-c9128b319c8b)
 
 ```
@@ -96,6 +97,7 @@ terraform output public_ip
 
 ### 5️ Access Nginx
 Open in browser:
+
 ![tarraform-web-server](https://github.com/user-attachments/assets/05724963-773c-43f7-b2c4-96da7edb65b2)
 
 
